@@ -4,16 +4,30 @@ body{
     background-color: #28231D;
     font-family: 'Work Sans', sans-serif;
 }
+@font-face{
+    font-family: gameft;
+    src:url(/font/Game\ of\ Thrones.ttf)
+}
+@font-face{
+    font-family: bebas;
+    src: url(font/BebasNeue-Regular.ttf);
+}
+@font-face{
+    font-family: alt;
+    src: url(font/Analogist.ttf);
+}
 .main{
     position: relative;
+    /* overflow: hidden; */
 }
 .nav{
     width: 100%;
     height: 50px;
     background-color: black;
     display: flex;
-    position: absolute;
+    /* position: absolute; */
     position: fixed;
+    z-index: 5;
 }
 .nav .logo{
     width: 10%;
@@ -49,8 +63,74 @@ body{
     width: 100%;
     height: 600px;
     position: absolute;
+    z-index: 0;
+    overflow: hidden;
+    position: fixed;
 }
 .front-image img{
     width: 100%;
-    height: 600px;
+    height: 100%;
 }
+.main .content{
+    width: 100%;
+    height: 400px;
+    margin-left: 30px;
+    margin-top: 20px;
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+    position: absolute;
+    z-index: 2;
+    position: fixed;
+}
+.background{
+    width: 100%;
+    height: 600px;
+    /* background-color: #28231D; */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.598) 20%,rgba(0, 0, 0, 0.064));
+    position: absolute;
+    z-index: 1;
+    position: fixed;
+}
+.content img{
+    width: 40%;
+    height: auto;
+}
+.main .c-item{
+    width: 40%;
+    height: 30px;
+    margin-left: 60px;
+    padding-bottom: 100px;
+    margin-top: -45px;
+    /* margin-bottom: 90px; */
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    z-index: 4;
+}
+.main .c-item h5{
+    color: silver;
+    font-weight: 200;
+    font-family: alt;
+}
+.fx a{
+    background-color: black;
+    font-family: bebas;
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    border: .5px solid white;
+    padding: 0 4px;
+    border-radius: 5px;
+}
+/* .content .para{
+    width: fit-content;
+    display: flex;
+    margin-bottom: 60px;
+    justify-content: space-between;
+} */
+/* .para h5{
+    color: white;
+} */
+/* .content p{
+    color: white;
+} */
+
