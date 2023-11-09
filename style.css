@@ -26,7 +26,7 @@ body{
     background-color: black;
     display: flex;
     /* position: absolute; */
-    position: fixed;
+    /* position: fixed; */
     z-index: 5;
 }
 .nav .logo{
@@ -65,7 +65,7 @@ body{
     position: absolute;
     z-index: 0;
     overflow: hidden;
-    position: fixed;
+    /* position: fixed; */
 }
 .front-image img{
     width: 100%;
@@ -75,41 +75,52 @@ body{
     width: 100%;
     height: 400px;
     margin-left: 30px;
-    margin-top: 20px;
+    margin-top: -60px;
+    /* margin-bottom: 145px; */
     /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
     position: absolute;
     z-index: 2;
-    position: fixed;
+    /* position: fixed; */
 }
 .background{
     width: 100%;
-    height: 600px;
+    height: 700px;
     /* background-color: #28231D; */
     background: linear-gradient(to right, rgba(0, 0, 0, 0.598) 20%,rgba(0, 0, 0, 0.064));
     position: absolute;
     z-index: 1;
-    position: fixed;
+    /* position: fixed; */
 }
 .content img{
     width: 40%;
     height: auto;
+    /* margin-bottom: 145px; */
 }
 .main .c-item{
-    width: 40%;
+    width: 50%;
     height: 30px;
-    margin-left: 60px;
-    padding-bottom: 100px;
-    margin-top: -45px;
+    /* padding-bottom: 100px; */
+    /* margin-top: -45px; */
     /* margin-bottom: 90px; */
-    display: flex;
-    justify-content: space-evenly;
+    /* display: flex;
+    justify-content: space-evenly; */
     position: absolute;
     z-index: 4;
 }
-.main .c-item h5{
+.first{
+    margin-top: 280px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    /* position: absolute; */
+}
+.main .first h5{
     color: silver;
-    font-weight: 200;
+    font-weight: 300;
     font-family: alt;
+}
+.first span{
+    margin-left: -45px;
 }
 .fx a{
     background-color: black;
@@ -121,16 +132,26 @@ body{
     padding: 0 4px;
     border-radius: 5px;
 }
-/* .content .para{
+.second{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+.second p{
     width: fit-content;
-    display: flex;
-    margin-bottom: 60px;
-    justify-content: space-between;
-} */
-/* .para h5{
-    color: white;
-} */
-/* .content p{
-    color: white;
-} */
+    font-family: 'PT Mono', monospace;
+    color: whitesmoke;
+    font-size: medium;
+}
+.third{
+    width: auto;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+.third p{
+    padding: 2px;
+    color: silver;
+    font-style: italic;
+    line-height: 1px;
+    /* margin-top: 50px; */
+}
 
