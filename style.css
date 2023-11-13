@@ -29,8 +29,8 @@ body{
 .nav{
     width: 100%;
     height: 50px;
-    position: static;
-    background-color: black;
+    position: fixed;
+    /* background-color: black; */
     top:0;
     display: flex;
     /* position: absolute; */
@@ -319,7 +319,7 @@ h5, p{
 .top-crd{
         background-color: black;
         width: 100%;
-        height: 500px;
+        height: 350px;
         margin-top: -10px;
 }
 .card-rolle{
@@ -341,5 +341,32 @@ h5, p{
     width: 100%;
     height: 300px;
     border-radius: 5px;
+}
+                                                /* TOP PICKS */
+.pick-crd{
+    background-color: black;
+    width: 100%;
+    height: 350px;
+    margin-top: -10px;
+}
+.card-role{
+width: 100%;
+height: 300px;
+display: flex;
+margin-top: -10px;
+display: flex;
+overflow-y: hidden;
+overflow-x: scroll;
+}
+.card-role .card{
+min-width: 250px;
+height: 300px;
+margin: 10px;
+border-radius: 5px;
+}
+.card-im{
+width: 100%;
+height: 300px;
+border-radius: 5px;
 }
 
