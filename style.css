@@ -246,7 +246,7 @@ body{
 .crd{
     background-color: black;
     width: 100%;
-    height: 500px;
+    height: 299px;
     /* display: flex; */
     /* justify-content: flex-start; */
     /* position:absolute; */
@@ -266,6 +266,7 @@ body{
     display: flex;
     margin-top: -10px;
     display: flex;
+    overflow-y: hidden;
     overflow-x: scroll;
 }
 .card{
@@ -287,4 +288,32 @@ body{
 }
 h5, p{
     font-size: small;
+}
+                                        /* new releases */
+.new-crd{
+        background-color: black;
+        width: 100%;
+        height: 500px;
+        margin-top: -10px;
+        /* display: flex; */
+        /* justify-content: flex-start; */
+        /* position:absolute; */
+    }
+.card-roller{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin-top: -10px;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.card-roller .card{
+    min-width: 250px;
+    height: 300px;
+    margin: 10px;
+}
+.icard-img{
+    width: 100%;
+    height: 300px;
 }
